@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var nameBuilder = function (firstname = 'Joe', lastname = 'Doe') {\n  console.log(firstname + \" \" + lastname);\n};\n\nnameBuilder();\n\n//# sourceURL=webpack:///./script.js?");
+eval("var nameBuilder = function (firstname = 'Joe', lastname = 'Doe') {\n  console.log(firstname + \" \" + lastname);\n}; //nameBuilder();\n\n\nvar createBox = function () {\n  //for (var i = 0; i < 45; i++) {\n  for (let i = 0; i < 45; i++) {\n    var div = document.createElement('div'); //var div = document.createElement('div id=\"divIndex'+i+'\"');\n\n    div.onclick = function () {\n      alert('You clicked on a box #' + i);\n    };\n\n    document.getElementsByTagName('section')[0].appendChild(div);\n  }\n};\n\nwindow.onload = function () {\n  nameBuilder();\n  createBox();\n};\n\n//# sourceURL=webpack:///./script.js?");
 
 /***/ })
 
