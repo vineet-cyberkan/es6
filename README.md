@@ -21,3 +21,7 @@ ES6 also contains classes, template strings and new ways to dealing with arrays 
 
 # Const keyword
 - Much like the let keyword, we can use const as an alternative when declaring variables. The const keyword is short for constant and allows us to set constant variables that shouldn't be reassigned.
+
+
+# Template strings
+- Another powerful feature of ES6 is template strings. Template strings allow you to tap into the functionality of template languages to format your JavaScript code with variables. 

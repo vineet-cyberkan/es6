@@ -40,10 +40,16 @@ var coldenough = function(deg){
 	}
 }
 
+function print(firstname){
+	//console.log('Hello '+ firstname); // normal way to do in javascript
+	console.log(`Hello ${firstname}`); // way to do in es6
+}
+
 window.onload = function(){
 	nameBuilder();
 	//createBox();
 	letBlock();
 	constBlock();
 	console.log(coldenough(45));
+	print("Vineet");
 }
